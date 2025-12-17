@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://i.pinimg.com/1200x/ff/ca/97/ffca97793af8f92b9220861fbbcb6eda.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#navbg{
+    background-image: linear-gradient(pink, rgb(83, 133, 241));
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.section{
+    background-color:rgb(121, 160, 244);
+    color: rgba(223, 88, 111, 0.822);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#big_text{
+    color: rgba(223, 88, 111, 0.822);
+    font-size: 35px;
+}
+.container{
+	background-image: linear-gradient(pink, rgb(160, 249, 249), rgb(156, 187, 255));
+	width: 500px;
+	padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(79, 82, 239);
+    opacity: 0.5px;
+}
+#description{
+    color: rgba(223, 88, 111, 0.822);
+    margin: 50px;
+}

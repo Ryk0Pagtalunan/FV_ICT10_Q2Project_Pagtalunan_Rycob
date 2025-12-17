@@ -1,0 +1,52 @@
+.title{
+    color: rgba(223, 88, 111, 0.822);
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/14/a4/a1/14a4a14715708fe4957dad1bde781be4.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.paragraphs{
+    color: rgba(223, 88, 111, 0.822);
+    font-size: 20px;
+    font-weight: bold;
+}
+#clubselect{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(223, 88, 111, 0.822);
+    border-radius: 10px;
+    border-color: rgb(79, 82, 239);
+    background-image: linear-gradient(pink, rgb(160, 249, 249), rgb(156, 187, 255));
+    width: 250px;
+    height: 35px;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(223, 88, 111, 0.822);
+}
+#club_info_show{
+    width: 250px;
+    background-image: linear-gradient(pink, rgb(160, 249, 249), rgb(156, 187, 255));
+    border-color: rgb(79, 82, 239);
+}
+.container1{
+	background-image: linear-gradient(pink, rgb(160, 249, 249), rgb(156, 187, 255));
+	width: 750px;
+	padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(79, 82, 239);
+}
+.outputs{
+    color: rgba(223, 88, 111, 0.822);
+    font-size: 15px;
+}
+#navbg{
+    background-image: linear-gradient(pink, rgb(83, 133, 241));
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}

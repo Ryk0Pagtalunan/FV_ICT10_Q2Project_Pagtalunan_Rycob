@@ -1,0 +1,111 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/09/fa/fc/09fafcc8d9c6e5320ada699b332ced1a.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container1{
+	background-image: linear-gradient(pink, rgb(160, 249, 249), rgb(156, 187, 255));
+	width: 500px;
+	padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(79, 82, 239);
+    opacity: 0.5px;
+    margin: 25px;
+}
+.container2{
+	background-image: linear-gradient(pink, rgb(83, 133, 241));
+	width: 350px;
+	padding: 10px;
+	border-color: rgb(79, 82, 239);
+    border-radius: 20px;
+	margin: 25px;
+	border-style: ridge;
+}
+#title{
+    color: rgba(223, 88, 111, 0.822);
+}
+label{
+    color: rgba(223, 88, 111, 0.822);
+}
+.gradenames{
+	color: rgba(223, 88, 111, 0.822);
+}
+.outputs{
+	color: rgba(223, 88, 111, 0.822);
+}
+#sci{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(223, 88, 111, 0.822);
+	width: 75px;
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#math{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(223, 88, 111, 0.822);
+	width: 75px;
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#eng{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(223, 88, 111, 0.822);
+	width: 75px;
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#fil{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(223, 88, 111, 0.822);
+	width: 75px;
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#pe{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(223, 88, 111, 0.822);
+	width: 75px;
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#ICT{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(223, 88, 111, 0.822);
+	width: 75px;
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#fname{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(186, 75, 93, 0.822);
+	background-image: linear-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#lname{
+	text-align: center;
+	font-weight: bold;
+	color: rgba(186, 75, 93, 0.822);
+	background-image: linear-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#calgwa{
+	text-align: center;
+	color: rgba(223, 88, 111, 0.822);
+	background-image: radial-gradient(pink, rgb(83, 133, 241));
+	border-color: rgb(79, 82, 239);
+}
+#navbg{
+    background-image: linear-gradient(pink, rgb(83, 133, 241));
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
