@@ -10,19 +10,19 @@ def calgwa(e):
     filipino = float(document.getElementById("fil").value) if document.getElementById("fil").checked else 0
     pe = float(document.getElementById("pe").value) if document.getElementById("pe").checked else 0
     ict = float(document.getElementById("ICT").value) if document.getElementById("ICT").checked else 0
-    List = (science, mathematics, english, filipino, pe, ict)
+    grades = (science, mathematics, english, filipino, pe, ict)
 
-    sum = (science * 5 + mathematics * 5 + english * 5 + filipino * 3 + ict * 2 + pe * 1)
-    totalunits = ((5*3) + 3 + 2 + 1)
-    gwa = sum / totalunits
+    total_weighted = (science * 5 + mathematics * 5 + english * 5 + filipino * 3 + ict * 2 + pe * 1)
+    total_units = 5 + 5 + 5 + 3 + 2 + 1
+    gwa = total_weighted / total_units
 
     summary = f"""
-    Science: {List[0]:.0f}
-    Mathematics: {List[1]:.0f}
-    English: {List[2]:.0f}
-    Filipino: {List[3]:.0f}
-    PE: {List[4]:.0f}
-    ICT: {List[5]:.0f}
+    Science: {grades[0]:.0f}
+    Mathematics: {grades[1]:.0f}
+    English: {grades[2]:.0f}
+    Filipino: {grades[3]:.0f}
+    PE: {grades[4]:.0f}
+    ICT: {grades[5]:.0f}
     """
 
     if fname == 0 or lname == 0:
@@ -40,4 +40,5 @@ def calgwa(e):
         display(summary, target='summary', append=False)
 
         display(f'Your general weighted average is {gwa:.2f}', target='GWAoutput', append=False)
+
 
