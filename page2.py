@@ -25,18 +25,19 @@ def calgwa(e):
     ICT: {List[5]:.0f}
     """
 
-    if fname or lname == 0:
+    if fname == 0 or lname == 0:
         display("N/A?", target="student_info", append=False)
     else:
         display(f'Name: {fname} {lname}', target='student_info', append=False)
 
-    if science or mathematics or english or filipino or pe or ict == 0:
+    if any(x == 0 for x in [science, mathematics, english, filipino, pe, ict]):
         display("Please input missing score/s, Thank you.", target="summary", append=False)
         display("Not enough info T^T", target="GWAoutput", append=False)
-    elif science or mathematics or english or filipino or pe or ict >= 101:
+    elif any(x >= 101 for x in [science, mathematics, english, filipino, pe, ict]):
         display("Please input valid score/s, Thank you.", target="summary", append=False)
         display("Make sure they're all valid grades of 1-100 T^T", target="GWAoutput", append=False)
     else:
         display(summary, target='summary', append=False)
 
         display(f'Your general weighted average is {gwa:.2f}', target='GWAoutput', append=False)
+
