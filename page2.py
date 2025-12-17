@@ -1,15 +1,17 @@
 from pyscript import display, document
 
 def calgwa(e):
-    fname = document.getElementById("fname").value if document.getElementById("fname").checked else 0
-    lname = document.getElementById("lname").value if document.getElementById("lname").checked else 0
+    fname_check = document.getElementById("fname").value
+    lname_check = document.getElementById("lname").value
+    fname = fname_check if fname_check != "" else 0
+    lname = lname_check if lname_check != "" else 0
 
-    science = float(document.getElementById("sci").value) if document.getElementById("sci").checked else 0
-    mathematics = float(document.getElementById("math").value) if document.getElementById("math").checked else 0
-    english = float(document.getElementById("eng").value) if document.getElementById("eng").checked else 0
-    filipino = float(document.getElementById("fil").value) if document.getElementById("fil").checked else 0
-    pe = float(document.getElementById("pe").value) if document.getElementById("pe").checked else 0
-    ict = float(document.getElementById("ICT").value) if document.getElementById("ICT").checked else 0
+    science = float(document.getElementById("sci").value) if document.getElementById("sci").value != "" else 0
+    mathematics = float(document.getElementById("math").value) if document.getElementById("math").value != "" else 0
+    english = float(document.getElementById("eng").value) if document.getElementById("eng").value != "" else 0
+    filipino = float(document.getElementById("fil").value) if document.getElementById("fil").value != "" else 0
+    pe = float(document.getElementById("pe").value) if document.getElementById("pe").value != "" else 0
+    ict = float(document.getElementById("ICT").value) if document.getElementById("ICT").value != "" else 0
     grades = (science, mathematics, english, filipino, pe, ict)
 
     total_weighted = (science * 5 + mathematics * 5 + english * 5 + filipino * 3 + ict * 2 + pe * 1)
@@ -40,5 +42,6 @@ def calgwa(e):
         display(summary, target='summary', append=False)
 
         display(f'Your general weighted average is {gwa:.2f}', target='GWAoutput', append=False)
+
 
 
